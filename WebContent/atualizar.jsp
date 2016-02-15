@@ -35,7 +35,7 @@
 		
 		<label for="ativo">Ativo:</label>
 		
-		<%if(aluno.getAtivo()==true){ %>
+		<%if(aluno.getAtivo() == false){ %>
 			<input type="checkbox" id="ativo" name="ativo" value="true"/><br>
 		<%}else { %>
 			<input type="checkbox" id="ativo" name="ativo" value="true" checked="checked"/><br>

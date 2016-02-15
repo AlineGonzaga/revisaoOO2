@@ -29,7 +29,7 @@
 		<input type="text" id="idade" name="idade"><br/>
 		
 		<label for="ativo">Ativo:</label>
-		<input type="checkbox" id="ativo" name="ativo"><br/>
+		<input type="checkbox" id="ativo" name="ativo" value="true"><br/>
 		
 		<input type="submit" value="Cadastre">
 	</form>
