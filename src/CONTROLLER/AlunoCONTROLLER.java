@@ -63,6 +63,7 @@ public class AlunoCONTROLLER extends HttpServlet {
 			aluno.setAtivo(Boolean.parseBoolean(request.getParameter("ativo")));
 			
 			dao.update(aluno);
+			
 			response.sendRedirect("listar.jsp");
 			break;
 			
