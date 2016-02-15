@@ -72,8 +72,8 @@ public class AlunoDAO implements IDAO{
 			pst.setLong(2, aluno.getTelefone());
 	        pst.setString(3, aluno.getEndereco());
 			pst.setInt(4, aluno.getIdade());
-			pst.setString(2, aluno.getEmail());
-			pst.setLong(3, aluno.getMatricula());
+			pst.setString(5, aluno.getEmail());
+			pst.setLong(6, aluno.getMatricula());
 			pst.setBoolean(7, aluno.getAtivo());
 			pst.setInt(8, aluno.getId());
 			
