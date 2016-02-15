@@ -44,7 +44,7 @@ public class AlunoCONTROLLER extends HttpServlet {
 			response.sendRedirect("listar.jsp");
 			break;
 			
-		case "deleter":
+		case "deletar":
 			aluno.setId(Integer.parseInt(request.getParameter("id")));
 			dao.delete(aluno);
 			response.sendRedirect("listar.jsp");
@@ -65,8 +65,7 @@ public class AlunoCONTROLLER extends HttpServlet {
 			dao.update(aluno);
 			
 			response.sendRedirect("listar.jsp");
-			break;
-			
+		break;
 			
 		}
 	}

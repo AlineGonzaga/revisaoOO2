@@ -30,14 +30,14 @@
 			<td><%=aluno.getEmail() %></td>
 			<td><%=aluno.getTelefone() %></td>
 			<td><%=aluno.getMatricula() %></td>
-			    <%if(aluno.getAtivo() == true) {%>
+			    <%if(aluno.getAtivo()==true) {%>
 				<td>Ativo</td>
 				  <%} else { %>
 				<td>Desativado</td>
 				<%} %>
 			<td><%=aluno.getEndereco() %></td>
 			<td><%=aluno.getIdade() %></td>
-			<td><a href="alunoCONTROLLER?operacao=deletar&id=<%=aluno.getId()%>">Deleter</a></td>
+			<td><a href="alunoCONTROLLER?operacao=deletar&id=<%=aluno.getId()%>">Deletar</a></td>
 			<td><a href="atualizar.jsp?id=<%=aluno.getId()%>">Editar</a></td>
 			<td><a href="cadastrar.jsp">Cadastrar</a><td/>
 	  </tr>
