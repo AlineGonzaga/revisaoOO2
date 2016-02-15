@@ -22,10 +22,10 @@
 		<input type="text" id="telefone" name="telefone" value="<%=aluno.getTelefone() %>"/><br/>
 		
 		<label for="email">E-mail:</label>
-		<input type="text" id="email" name="email" value="<%=aluno.getTelefone() %>" /><br>
+		<input type="text" id="email" name="email" value="<%=aluno.getEmail()%>" /><br>
 		
 		<label for="endereco">Endereço:</label>
-		<input type="text" id="endereco" name="endereco" value="<%=aluno.getTelefone() %>"/><br>
+		<input type="text" id="endereco" name="endereco" value="<%=aluno.getEndereco() %>"/><br>
 		
 		<label for="matricula">Matricula</label>
 		<input type="text" id="matricula" name="matricula" value="<%=aluno.getMatricula() %>"/><br>
