@@ -69,11 +69,11 @@ public class AlunoDAO implements IDAO{
 			pst = connection.prepareStatement(sql);
 			
 			pst.setString(1, aluno.getNome());
+			pst.setLong(2, aluno.getTelefone());
+	        pst.setString(3, aluno.getEndereco());
+			pst.setInt(4, aluno.getIdade());
 			pst.setString(2, aluno.getEmail());
 			pst.setLong(3, aluno.getMatricula());
-	        pst.setString(4, aluno.getEndereco());
-			pst.setLong(5, aluno.getTelefone());
-			pst.setInt(6, aluno.getIdade());
 			pst.setBoolean(7, aluno.getAtivo());
 			pst.setInt(8, aluno.getId());
 			
